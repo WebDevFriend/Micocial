@@ -1,0 +1,115 @@
+@media (max-width: 1750px) {
+	.menu, .footer-menu{
+		width: 55%;
+	}
+}
+
+@media (max-width: 1350px) {
+	.menu, .footer-menu{
+		width: 60%;
+	}
+}
+
+@media (max-width: 1100px) {
+	.menu, .footer-menu{
+		width: 65%;
+	}
+}
+
+@media (max-width: 1199px) {
+	html{
+		font-size: 8px;
+	}
+}
+
+@media (max-width: 991px) {
+	html{
+		font-size: 18px;
+	}
+	.visible-lg{
+		display: none;
+	}
+	.m-menu-link{
+		display: block;
+	}
+
+	.price-tags{
+		flex-direction: column;
+	}
+
+	.price-tag{
+		width: 90%;
+		margin: 2rem auto;
+	}
+
+	.price-tag:last-child{
+		margin: 2rem auto;
+	}
+
+	.footer{
+		justify-content: center;
+	}
+
+	.footer-menu{
+		display: none;
+	}
+
+	.legal{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding-bottom: 5rem;
+	}
+
+	.social-links{
+		padding-top: 3rem;
+	}
+	
+	.social-links a{
+		font-size: 3rem;
+	}
+
+	.social-links a i{
+		margin-right: 1rem;
+	}
+
+	.social-links a:hover{
+	transform: scale(1.3,1.3);
+}
+
+	.main-text span{
+		font-size: 1.5rem;
+	}
+
+	.main-text h1{
+		font-size: 6rem;
+		margin: 0;
+	}
+
+	.m-menu .menu-link{
+		font-size: 2.5rem;
+	}
+
+	.mobile-size-btn{
+		font-size: 1.6rem;
+	}
+
+	.table {
+		padding: 6rem;
+	}
+
+	.price-tag img {
+		width: 12rem;
+	}
+
+	.price-tag span{
+		font-size: 2rem;
+	}
+	
+	.price-tag p{
+		font-size: 1.6rem;
+	}
+
+}
